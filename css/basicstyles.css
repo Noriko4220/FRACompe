@@ -1,0 +1,92 @@
+body{
+	background-color: #000000;
+    background-image: url("blue_sky.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+
+div#header_page_wrapper{
+	position: fixed;
+	height : 100px;
+	width: 100%;
+    position: static;
+	background-color: #000000;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+div#main{
+    width: auto;
+	height: auto;
+}
+
+div#clicking_title{
+	width: auto;
+	height: auto;
+	float: left;
+    margin-top: 1%;
+	margin-left: 1%;
+}
+
+div#page_title{
+	position: absolute;
+    width: auto;
+	height: auto;
+	right: 0;
+	margin-top: 1%;
+	margin-right: 2%;
+}
+
+div#title_thumbnail{
+    background-image: url("123.jpg");
+	background-size: cover;
+	width: 34px;
+	height: 34px;
+	float: left;
+}
+
+div#title_text{
+	width: auto;
+	height: 100%;
+	float: left;
+	margin-right: 12px;
+}
+
+div#footer_page_wrapper{
+	height : 150px;
+	width: 100%;
+    position: static;
+	background-color: #000000;
+	opacity: 0.8;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+div#footer_page_logo{
+	position: absolute;
+	display: block;
+	margin-left: 50%;
+	margin-top: 5%;
+	height: auto;
+	width: auto;
+	z-index: 0;
+}
+
+div#placeholder2{
+	width: 100%;
+	height: 65%;
+}
+
+div#footer_end{
+	color: white;
+	margin-left: 45%;
+	width: auto;
+	height: auto;
+}
+
+div.logo{
+   margin: 0 auto;
+   width: auto;
+   margin : 25px;
+   float: left;
+}

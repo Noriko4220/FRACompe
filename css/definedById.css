@@ -1,0 +1,275 @@
+div#header_page{
+	height : 100px;
+	width:100%;
+    position: static;
+	background-color: #000000;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+div#main_body{
+	height : 800px;
+    position: relative;
+	width:100%;
+	background-color: #454545;
+	z-index: 0;
+	background-size: cover;
+	opacity: 0.8;
+	overflow: hidden;
+}
+
+div#main_body2{
+	height : 2400px;
+    position: static;
+	width:100%;
+	background-color: #ffffff;
+	z-index: 0;
+	opacity: 0.8;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+div#main_body3{
+	height : 600px;
+    position: relative;
+	width:100%;
+	background-color: #454545;
+	z-index: 0;
+	opacity: 0.8;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+div#contact_us{
+	position: relative;
+	width:40%;
+	height: 100%;
+	float: left;
+}
+
+div#video_featuring{
+	position: relative;
+	width:60%;
+	height: 100%;
+	float: left;
+}
+
+iframe#future_asean{
+	margin-top: 7%;
+	margin-left: 15%;
+}
+
+div#contact_name_placeholder{
+	height: 5%;
+}
+
+div#contact_name{
+	position: absoulte;
+	font-size: 5vw;
+	font-weight: bold;
+    text-align: center;
+	color: white;
+	width: 100%;
+	height: auto;
+}
+
+div#name_group{
+	color: white;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	margin-left: 2%;
+	margin-top: 35%;
+}
+
+div#name_highlight{
+	text-align: center;
+	font-size: 2vw;
+	font-weight: bold;
+	color: white;
+	width: 100%;
+	height: auto;
+}
+
+div#name_detail{
+	text-align: center;
+	color: white;
+	width: 100%;
+	height: auto;
+}
+
+div#header_content1{
+   position: absolute;
+   width: 100%;
+   height: auto;
+}
+
+div#blog_marker{
+   position: absolute;
+   width: auto;
+   height: auto;
+   margin: 10%;
+}
+
+div#placeholder1{
+	width: 100%;
+	height: 10%;
+}
+
+div#intro_placeholder{
+	width: 100%;
+	height: 40%;
+}
+
+div#wrapper1{
+	position: absolute;
+	margin :0 auto;
+    width: 100%;
+	height: auto;
+	z-index: 1;
+	overflow: hidden;
+}
+
+div#intro_text {
+  position: relative;
+  color: White;
+  font-weight: bold;
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 3vw;
+  z-index: 1;
+}
+
+button#intro_button {
+  position: relative;	
+  background-color: #4CAF50;
+  display: block;
+  margin: auto;
+  color: white;
+  padding: 16px;
+  font-size: 1vw;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}
+
+button#intro_button:hover {
+  position: relative;	
+  background-color: #3d8a40;
+  display: block;
+  margin: auto;
+  color: white;
+  padding: 16px;
+  font-size: 1vw;
+  border: none;
+  cursor: pointer;
+  transition: .5s ease;
+  z-index: 100;
+}
+
+div#image_wrapper{
+	position: absolute;
+    width: 100%;
+	height: 562.5px;
+	margin-top : 6%;
+	z-index: 0;
+}
+
+img#intro_image{
+	position: absolute;
+	left: 0;
+    right: 0;
+    margin: auto;
+	margin: auto;
+	height: 100%;
+	width: 75%;
+	opacity: 0.8;
+	z-index: 0;
+}
+
+img#intro_image1{
+	position: absolute;
+	left: 0;
+    right: 0;
+    margin: auto;
+	margin: auto;
+	height: 100%;
+	width: 75%;
+	opacity: 0.8;
+	z-index: 0;
+}
+
+img#intro_image2{
+	position: absolute;
+	left: 0;
+    right: 0;
+    margin: auto;
+	margin: auto;
+	height: 100%;
+	width: 75%;
+	opacity: 0.8;
+	z-index: 0;
+}
+
+img#intro_image3{
+	position: absolute;
+	left: 0;
+    right: 0;
+    margin: auto;
+	margin: auto;
+	height: 100%;
+	width: 75%;
+	opacity: 0.8;
+	z-index: 0;
+}
+
+div#data_parallelogram_list{
+	position: absolute;
+	width: 100%;
+	height: 90px;
+	margin: 0 auto;
+	bottom: 0;
+	z-index: 1;
+}
+
+@keyframes FadeInOutAnim {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+div#image_wrapper img{
+animation-name: FadeInOutAnim;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 8s;
+animation-direction: alternate;
+}
+
+div#image_wrapper img:nth-of-type(0) {
+  animation-delay: 0s;
+}
+
+div#image_wrapper img:nth-of-type(1) {
+  animation-delay: 6s;
+}
+div#image_wrapper img:nth-of-type(2) {
+  animation-delay: 4s;
+}
+div#image_wrapper img:nth-of-type(3) {
+  animation-delay: 2s;
+}
+div#image_wrapper img:nth-of-type(4) {
+  animation-delay: 0s;
+}
